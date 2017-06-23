@@ -79,7 +79,7 @@ app.get('/hover', function(req, res) {
 	// Send the message to Azure IoT Hub
 	droneclient.sendEvent(message, printResultFor('send'));
    	console.log("Drone Altitude: " + sensordata.demo.altitude);
- 	console.log("Drone Battery Percentage: " + sensordata.demo.batteryPercentage);
+ 	console.log("Drone Joe Battery Percentage: " + sensordata.demo.batteryPercentage);
  	}); 
 	// Helper function to print results in the console
 	function printResultFor(op) {
